@@ -2,11 +2,20 @@
 
 ## Getting started
 
-`$ npm install react-native-root-view-background-color --save`
+#### RN >= 0.60
 
-### Mostly automatic installation
+If you are using RN >= 0.60, only run `pod install` from the ios directory. Then rebuild your project.
 
-`$ react-native link react-native-root-view-background-color`
+#### RN < 0.60
+
+For RN < 0.60, you need to link the dependency using `react-native link`:
+
+```bash
+react-native link react-native-root-view-background-color
+```
+
+Then run `pod install` from the ios directory and rebuild your project.
+
 
 ## Usage
 ```javascript
