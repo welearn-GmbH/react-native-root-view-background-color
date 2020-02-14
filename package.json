@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/kev-chen/react-native-root-view-background-color",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/github_account/react-native-root-view-background-color.git",
@@ -24,10 +25,10 @@
   "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "^16.8.1",
-    "react-native": ">=0.60.0-rc.0 <1.0.x"
+    "react-native": "^0.52.2"
   },
   "devDependencies": {
     "react": "^16.9.0",
-    "react-native": "^0.61.5"
+    "react-native": "^0.52.2"
   }
 }
