@@ -35,7 +35,7 @@ public class RootViewBackgroundColorModule extends ReactContextBaseJavaModule {
           @Override
           public void run() {
             View rootView = activity.getWindow().getDecorView();
-            int parsedColor = Color.argb(alpha, red, green, blue);
+            int parsedColor = Color.argb(alpha, red / 255, green / 255, blue / 255);
             rootView.getRootView().setBackgroundColor(parsedColor);
           }
         });
