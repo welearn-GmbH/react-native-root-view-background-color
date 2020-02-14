@@ -1,0 +1,33 @@
+{
+  "name": "react-native-root-view-background-color",
+  "title": "React Native Root View Background Color",
+  "version": "1.0.0",
+  "description": "React Native module to set root view background color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-root-view-background-color.git",
+    "baseUrl": "https://github.com/github_account/react-native-root-view-background-color"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Kevin Chen",
+    "email": "kev_chen@outlook.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
