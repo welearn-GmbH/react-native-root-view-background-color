@@ -1,7 +1,7 @@
 {
   "name": "react-native-root-view-background-color",
   "title": "React Native Root View Background Color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native module to set root view background color",
   "main": "index.js",
   "scripts": {
