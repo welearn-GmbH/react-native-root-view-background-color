@@ -24,18 +24,20 @@ public class RootViewBackgroundColorModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void setBackground(final float red, final float green, final float blue, final float alpha) {
+    public void setBackground(final int red, final int green, final int blue, final float alpha) {
         final Activity activity = getCurrentActivity();
 
         if (activity == null) {
           return;
         }
 
+        final int alphaInt = (int) alpha * 255;
+
         activity.runOnUiThread(new Runnable() {
           @Override
           public void run() {
             View rootView = activity.getWindow().getDecorView();
-            int parsedColor = Color.argb(alpha, red / 255, green / 255, blue / 255);
+            int parsedColor = Color.argb(alphaInt, red, green, blue);
             rootView.getRootView().setBackgroundColor(parsedColor);
           }
         });
