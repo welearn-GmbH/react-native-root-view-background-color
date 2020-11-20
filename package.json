@@ -10,8 +10,8 @@
   "homepage": "https://github.com/kev-chen/react-native-root-view-background-color",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-root-view-background-color.git",
-    "baseUrl": "https://github.com/github_account/react-native-root-view-background-color"
+    "url": "git+https://github.com/kev-chen/react-native-root-view-background-color.git",
+    "baseUrl": "https://github.com/kev-chen/react-native-root-view-background-color"
   },
   "keywords": [
     "react-native"
