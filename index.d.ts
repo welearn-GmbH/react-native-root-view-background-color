@@ -1,3 +1,3 @@
 export default {
-  fsetBackground(color: string): void;,
+  setBackground(R: number, G: number, B: number, A: number): void;,
 };
