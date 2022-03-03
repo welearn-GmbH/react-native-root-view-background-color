@@ -1,7 +1,9 @@
 # react-native-set-rootview-bgcolor
 <i>This lib is fork `kev-chen/react-native-root-view-background-color`, add ts support.</i>
 ## Getting started
-
+```sh
+yarn add react-native-set-rootview-bgcolor
+```
 #### RN >= 0.60
 
 If you are using RN >= 0.60, only run `pod install` from the ios directory. Then rebuild your project.
