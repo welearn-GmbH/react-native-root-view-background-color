@@ -1,34 +1,34 @@
 {
-  "name": "react-native-set-rootview-bgcolor",
-  "title": "React Native Root View Background Color",
-  "version": "2.0.0",
-  "description": "React Native module to set root view background color",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "homepage": "https://github.com/alantoa/react-native-root-view-background-color",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alantoa/react-native-root-view-background-color.git",
-    "baseUrl": "https://github.com/alantoa/react-native-root-view-background-color"
-  },
-  "keywords": [
-    "react-native"
-  ],
-  "author": {
-    "name": "Kevin Chen",
-    "email": "kev_chen@outlook.com"
-  },
-  "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
-  "peerDependencies": {
-    "react": ">16",
-    "react-native": "^0.67.2"
-  },
-  "devDependencies": {
-    "react": "*",
-    "react-native": "*"
-  }
+    "name": "react-native-set-rootview-bgcolor",
+    "title": "React Native Root View Background Color",
+    "version": "2.0.0",
+    "description": "React Native module to set root view background color",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "homepage": "https://github.com/alantoa/react-native-root-view-background-color",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alantoa/react-native-root-view-background-color.git",
+        "baseUrl": "https://github.com/alantoa/react-native-root-view-background-color"
+    },
+    "keywords": [
+        "react-native"
+    ],
+    "author": {
+        "name": "Kevin Chen",
+        "email": "kev_chen@outlook.com"
+    },
+    "license": "MIT",
+    "licenseFilename": "LICENSE",
+    "readmeFilename": "README.md",
+    "peerDependencies": {
+        "react": ">16",
+        "react-native": "*"
+    },
+    "devDependencies": {
+        "react": "*",
+        "react-native": "*"
+    }
 }
